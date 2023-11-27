@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content List</title>
+</head>
+<body>
+    <h1>Content List</h1>
+    {% for content in contents %}
+        <h2>{{ content.title }}</h2>
+        <p>{{ content.description }}</p>
+        <p>{{ content.body }}</p>
+    {% endfor %}
+</body>
+</html>
