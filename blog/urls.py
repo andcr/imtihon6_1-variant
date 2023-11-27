@@ -20,5 +20,4 @@ from app.views import content_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('contents/', content_list, name='content_list'),
 ]
